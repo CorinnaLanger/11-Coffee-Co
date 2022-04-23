@@ -5,4 +5,31 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.menu {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    border: 2px red solid;
+}
+.menu li {
+    display: inline-block;
+    font-family: Special Elite;
+    font-size: 2rem;
+    list-style: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    
+}
+.coffeeshop {
+    background-image: url("../img/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    }
+.coffeeshop img {
+    padding-top: 50rem;
+   
+}
+/* ------header fertig-------- */
