@@ -5,16 +5,20 @@
     box-sizing: border-box;
 }
 .menu {
-    display: inline-block;
     width: 100%;
     text-align: right;
+   
 }
-    
+a {
+    text-decoration: none;
+}
+a:visited {
+    color:#000;
+}
 .menu li {
     display: inline-block;
     font-family: Special Elite;
     font-size: 2rem;
-    list-style: none;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-right: 1em;
@@ -248,3 +252,28 @@ height: 100vh;
         margin-left: 15rem;
      }
      /* ----Our Cakes fertig---- */
+     footer {
+         background-color: #000;
+     }
+     footer h2 {
+         font-family: sans-serif;
+         font-size: 3rem;
+         color:#fff;
+         text-align: center;
+         padding-top: 4rem;
+         padding-bottom: 2rem;
+     }
+     footer p {
+        font-family: Special Elite;
+        font-size: 2rem;
+        color:#fff;
+        text-align: center;
+      
+     }
+     footer img {
+         display: block;
+         margin-left: 76rem;
+     }
+     #today {
+         margin-left: 73rem;
+     }
