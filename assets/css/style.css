@@ -63,3 +63,95 @@
     visibility: hidden;
 }
 /* -------Abschnitt 1 section + fixed background fertig----- */
+.ourmenu {
+background-image: url(../img/cake_icon.png);
+display: inline-block;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh;
+}
+#our {
+    font-family: sans-serif;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 4rem;
+
+}
+#toast {
+    margin-top: 2rem;
+   margin-left: 77rem;
+}
+.ourmenu h2:nth-of-type(2) {
+    font-family: Exo;
+    text-align: center;
+}
+.ourmenu h2:last-of-type {
+    font-family: sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.bottomless {
+    font-family: Special Elite;
+    font-size: 2rem;
+    border: 1px solid #000;
+    text-align: center;
+    width: 40rem;
+    height: 6,5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 60rem;
+    margin-top: 2rem;
+
+}
+.bottomless h3 {
+    padding-bottom: 1rem;
+}
+.cafe {
+    font-family: Special Elite;
+    font-size: 2rem;
+    border: 1px solid #000;
+    text-align: center;
+    width: 40rem;
+    height: 6,5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 60rem;
+    margin-top: 1rem;
+}
+.french {
+    font-family: Special Elite;
+    font-size: 2rem;
+    border: 1px solid #000;
+    text-align: center;
+    width: 40rem;
+    height: 6,5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 60rem;
+    margin-top: 2rem;
+}
+.chemex {
+    font-family: Special Elite;
+    font-size: 2rem;
+    border: 1px solid #000;
+    text-align: center;
+    width: 40rem;
+    height: 6,5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 60rem;
+    margin-top: 1rem;
+}
+.backgroundiceanddeko {
+    background-image: url(../img/bridge_2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+.backgroundiceanddeko h2 {
+    visibility: hidden;
+}
+/* -----Abschnitt 2 + fixed background fertig-------- */
