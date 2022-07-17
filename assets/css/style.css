@@ -23,9 +23,9 @@ a:visited {
     display: inline-block;
     font-family: Special Elite;
     font-size: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
     
 }
 .coffeeshop {
@@ -36,7 +36,7 @@ a:visited {
     height: 100vh;
     }
 .coffeeshop img {
-    padding-top: 50rem;
+    padding-top: 38rem;
    
 }
 /* ------header fertig-------- */
@@ -50,13 +50,13 @@ a:visited {
 }
 .beans h1 {
     font-family: sans-serif;
-    font-size: 7rem;
+    font-size: 3rem;
     padding-top: 10rem;
     padding-left: 6rem;
 }
 .beans p {
     font-family: Special Elite;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 3rem;
     padding-left: 6rem;
 }
@@ -67,9 +67,9 @@ a:visited {
     width: 100vw;
     height: 50vh;
 }
-.backgroundflowersandice h2 {
+/* .backgroundflowersandice h2 {
     visibility: hidden;
-}
+} */
 /* -------Abschnitt 1 section + fixed background fertig----- */
 .ourmenu {
 background-image: url(../img/cake_icon.png);
@@ -77,18 +77,18 @@ display: inline-block;
 background-size: cover;
 background-repeat: no-repeat;
 width: 100vw;
-height: 100vh;
+height: 110vh;
 }
 #our {
     font-family: sans-serif;
-    font-size: 6rem;
+    font-size: 3rem;
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 3rem;
 
 }
 #toast {
     margin-top: 2rem;
-   margin-left: 77rem;
+   margin-left: 57rem;
 }
 .ourmenu h2:nth-of-type(2) {
     font-family: Exo;
@@ -96,9 +96,9 @@ height: 100vh;
 }
 .ourmenu h2:last-of-type {
     font-family: sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .bottomless {
     font-family: Special Elite;
@@ -106,11 +106,11 @@ height: 100vh;
     border: 1px solid #000;
     text-align: center;
     width: 40rem;
-    height: 6,5rem;
+    /* height: 6,5rem; */
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-left: 60rem;
-    margin-top: 2rem;
+    margin-left: 40rem;
+    margin-top: 1rem;
 
 }
 .bottomless h3 {
@@ -122,10 +122,10 @@ height: 100vh;
     border: 1px solid #000;
     text-align: center;
     width: 40rem;
-    height: 6.5rem;
+    /* height: 6.5rem; */
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-left: 60rem;
+    margin-left: 40rem;
     margin-top: 1rem;
 }
 .french {
@@ -134,11 +134,11 @@ height: 100vh;
     border: 1px solid #000;
     text-align: center;
     width: 40rem;
-    height: 10rem;
+    /* height: 10rem; */
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-left: 60rem;
-    margin-top: 2rem;
+    margin-left: 40rem;
+    margin-top: 1rem;
 }
 .chemex {
     font-family: Special Elite;
@@ -146,10 +146,10 @@ height: 100vh;
     border: 1px solid #000;
     text-align: center;
     width: 40rem;
-    height: 10rem;
+    /* height: 10rem; */
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-left: 60rem;
+    margin-left: 40rem;
     margin-top: 1rem;
 }
 .backgroundiceanddeko {
@@ -170,7 +170,7 @@ height: 100vh;
 
 .story h2 {
     font-family: sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 8rem;
     margin-left: 40rem;
     
@@ -179,7 +179,7 @@ height: 100vh;
     display: inline-block;
     width: 30rem;
     font-family: Special Elite;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
     margin-left: 40rem;
     margin-bottom: 18rem;
@@ -195,9 +195,9 @@ height: 100vh;
     height: 50vh;
 
 }
-.cakeandcoffee h2 {
+/* .cakeandcoffee h2 {
     visibility: hidden;
-}
+} */
 /* -----our Story fertig + fixed backgorund----- */
 .catering {
     display: inline-block;
@@ -219,11 +219,11 @@ height: 100vh;
      }
      .catering_cakes h2 {
          font-family: sans-serif;
-         font-size: 3rem;
+         font-size: 2rem;
      }
      .catering_cakes p {
         font-family: Special Elite;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-top: 2rem;
      }
      .button {
@@ -241,9 +241,9 @@ height: 100vh;
          height: 50vh;
 
      }
-     .brackfast h2 {
+     /* .brackfast h2 {
          visibility: hidden;
-     }
+     } */
      /* ------Catering + fixed background fertig------ */
      .cakes {
          background-image: url(../img/muffin_icon.png);
@@ -258,10 +258,11 @@ height: 100vh;
      /* ----Our Cakes fertig---- */
      footer {
          background-color: #000;
+         height: 100%;
      }
      footer h2 {
          font-family: sans-serif;
-         font-size: 3rem;
+         font-size: 2rem;
          color:#fff;
          text-align: center;
          padding-top: 4rem;
@@ -269,15 +270,18 @@ height: 100vh;
      }
      footer p {
         font-family: Special Elite;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color:#fff;
         text-align: center;
       
      }
+     .flex {
+         display: flex;
+         justify-content: center;
+         margin-top: 2rem;
+         
+     }
      footer img {
-         display: block;
-         margin-left: 76rem;
+        padding: 10px;
      }
-     #today {
-         margin-left: 73rem;
-     }
+    
